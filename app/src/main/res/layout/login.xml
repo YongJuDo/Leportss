@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_margin="40dp">
+
+        <EditText
+            android:id="@+id/edtID_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="이메일" />
+
+        <EditText
+            android:id="@+id/edtPassWord_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="비밀번호" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSingup_login"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="회원가입"
+            android:textColor="#000000"
+            android:backgroundTint="#00BCD4" />
+
+        <Button
+            android:id="@+id/btnLogin_login"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="LOGIN"
+            android:textColor="#000000"
+            android:backgroundTint="#00BCD4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/imagebtnFacebook_login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="Facebook 계정으로 로그인"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#395A9D"
+            android:drawableLeft="@drawable/facebook" />
+
+
+        <Button
+            android:id="@+id/imagebtnGoogle_login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="Google 계정으로 로그인"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#CC3731"
+            android:drawableLeft="@drawable/google" />
+
+    </LinearLayout>
+
+</LinearLayout>

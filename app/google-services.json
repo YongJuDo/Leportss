@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247846145352",
+    "project_id": "leports-2a03c",
+    "storage_bucket": "leports-2a03c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247846145352:android:8482026f085b1cddc6b77d",
+        "android_client_info": {
+          "package_name": "com.example.leports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247846145352-rkrpg9iq4r8q7o5c9lmagn1slah3mdlk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leports",
+            "certificate_hash": "9f3a1acda514626974accd514ef0488b5e6fada1"
+          }
+        },
+        {
+          "client_id": "247846145352-e59q087tv5i2fmb2p8nlli3ccjgokpje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdX9WZxI9F_W1E-SUMg7ih6_8jxQU8RTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247846145352-e59q087tv5i2fmb2p8nlli3ccjgokpje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

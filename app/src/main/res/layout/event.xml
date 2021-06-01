@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSummer"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom"
+            android:text="여름 레포츠"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/summer"/>
+
+        <Button
+            android:id="@+id/btnWinter"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom"
+            android:text="겨울 레포츠"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/winter"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnInterior"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="15dp"
+                android:text="실내 레포츠"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:backgroundTint="#FFFFFF"
+                android:drawableTop="@drawable/interior"/>
+
+            <Button
+                android:id="@+id/btnOutside"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_margin="11dp"
+                android:text="야외 레포츠"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:backgroundTint="#FFFFFF"
+                android:drawableTop="@drawable/outside"/>
+
+    </LinearLayout>
+
+</LinearLayout>
